@@ -44,6 +44,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="c0n-BX-WrW">
+                        <barButtonItem key="leftBarButtonItem" title="Edit" id="ywk-1A-Ccp">
+                            <connections>
+                                <action selector="editButtonPressed:" destination="BYZ-38-t0r" id="zFh-50-f4L"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="awD-Ip-d0I">
                             <connections>
                                 <segue destination="gcZ-6N-2mL" kind="presentation" identifier="AddDetail" id="Psz-bM-0cN"/>
@@ -51,6 +56,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addBarButton" destination="awD-Ip-d0I" id="a8N-Pj-1Mi"/>
                         <outlet property="tableView" destination="lbb-l6-orz" id="wQY-4a-yUd"/>
                     </connections>
                 </viewController>
@@ -131,7 +137,11 @@
                                 <action selector="cancelButtonPressed:" destination="pj0-Gk-EhT" id="Ey6-rE-n33"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="evo-XS-LSF"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="evo-XS-LSF">
+                            <connections>
+                                <segue destination="AbW-Qr-Sgl" kind="unwind" unwindAction="unwindFromDetailWithSegue:" id="wAz-7t-qkW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="capitalField" destination="O61-rX-rwc" id="7AR-K5-523"/>
@@ -140,6 +150,7 @@
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vpR-fs-1vK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="AbW-Qr-Sgl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3059" y="78"/>
         </scene>
