@@ -16,6 +16,7 @@
 		23A09D7C25EBF08D00957213 /* European_UnionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A09D7B25EBF08D00957213 /* European_UnionTests.swift */; };
 		23A09D8725EBF08D00957213 /* European_UnionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A09D8625EBF08D00957213 /* European_UnionUITests.swift */; };
 		23A09D9825EC085500957213 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A09D9725EC085500957213 /* DetailTableViewController.swift */; };
+		23A09D9D25EC186A00957213 /* Nation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A09D9C25EC186A00957213 /* Nation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		23A09D8625EBF08D00957213 /* European_UnionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = European_UnionUITests.swift; sourceTree = "<group>"; };
 		23A09D8825EBF08D00957213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23A09D9725EC085500957213 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		23A09D9C25EC186A00957213 /* Nation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				23A09D6425EBF08C00957213 /* AppDelegate.swift */,
 				23A09D6625EBF08C00957213 /* SceneDelegate.swift */,
+				23A09D9C25EC186A00957213 /* Nation.swift */,
 				23A09D6825EBF08C00957213 /* ViewController.swift */,
 				23A09D9725EC085500957213 /* DetailTableViewController.swift */,
 				23A09D6A25EBF08C00957213 /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				23A09D9825EC085500957213 /* DetailTableViewController.swift in Sources */,
 				23A09D6925EBF08C00957213 /* ViewController.swift in Sources */,
+				23A09D9D25EC186A00957213 /* Nation.swift in Sources */,
 				23A09D6525EBF08C00957213 /* AppDelegate.swift in Sources */,
 				23A09D6725EBF08C00957213 /* SceneDelegate.swift in Sources */,
 			);
