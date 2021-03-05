@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230312A525F2EFC2006569CC /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230312A425F2EFC2006569CC /* ListTableViewCell.swift */; };
 		23A09D6525EBF08C00957213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A09D6425EBF08C00957213 /* AppDelegate.swift */; };
 		23A09D6725EBF08C00957213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A09D6625EBF08C00957213 /* SceneDelegate.swift */; };
 		23A09D6925EBF08C00957213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A09D6825EBF08C00957213 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230312A425F2EFC2006569CC /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		23A09D6125EBF08C00957213 /* European Union.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "European Union.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A09D6425EBF08C00957213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23A09D6625EBF08C00957213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				23A09D9C25EC186A00957213 /* Nation.swift */,
 				23A09D6825EBF08C00957213 /* ViewController.swift */,
 				23A09D9725EC085500957213 /* DetailTableViewController.swift */,
+				230312A425F2EFC2006569CC /* ListTableViewCell.swift */,
 				23A09D6A25EBF08C00957213 /* Main.storyboard */,
 				23A09D6D25EBF08D00957213 /* Assets.xcassets */,
 				23A09D6F25EBF08D00957213 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 				23A09D9D25EC186A00957213 /* Nation.swift in Sources */,
 				23A09D6525EBF08C00957213 /* AppDelegate.swift in Sources */,
 				23A09D6725EBF08C00957213 /* SceneDelegate.swift in Sources */,
+				230312A525F2EFC2006569CC /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
